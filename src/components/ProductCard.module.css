@@ -1,0 +1,41 @@
+.Container{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 8px; 
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.Favorite{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 0;
+    background:none;
+    font-size: 20px;
+
+    &:hover{
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+    }
+}
+
+.NotAvailableStatus{
+    font-size:16px;
+    color:lightsalmon;
+}
+
+.Description{
+    list-style: none;
+    padding: 0;
+    font-size: small;
+}
+
+.AvailableStatus{
+    font-size:16px;
+    color:lightgreen;
+}
+
+

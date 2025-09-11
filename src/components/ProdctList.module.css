@@ -1,0 +1,7 @@
+.List{
+    border: 1px solid white;
+    border-Radius: 8px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
